@@ -1,0 +1,57 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.sidebox{
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #232323;
+    color: #b5b5b5;
+}
+.fcc-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+.fcc-btn:hover {
+    background-color: #0db583;
+}
+.toppanel{
+    position:relative;
+    font-size: 28px;
+    right: -3%;
+}
+.toppanel a{
+    text-align: right;
+    right: 50%;
+}
+.gallery {
+    background: #c9e6f9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.gallery img {
+    width: 100%;
+    object-fit: contain;
+    top: 50px;
+}
+.gallery a {
+    position: relative;
+    text-align: center;
+}
+.gallery div {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    background-color: #0db583;
+}
