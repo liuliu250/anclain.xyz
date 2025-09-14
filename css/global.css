@@ -1,5 +1,5 @@
 * {
-    font-family: "等线",serif;
+    /*font-family: "等线",serif;*/
 }
 body{
     margin: 0;
@@ -7,13 +7,18 @@ body{
     background: #c9e6f9
 }
 .frame{
+    display: block;
     height: 1440px;
     width: 100%;
 }
-.toppanel{
+.toppanel {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
     position:relative;
     font-size: 28px;
-    right: -3%;
+    right: -8%;
 }
 .container{
     display: flex;
